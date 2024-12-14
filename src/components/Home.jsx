@@ -73,7 +73,7 @@ function Home() {
                 <button className='bg-green-800 text-white rounded-xl px-3 py-2'><a href={resume} download="resume">Download CV</a></button>
             </div>
          </div>
-         <div className="md:w-1/2 md:ml-40 md:mt-20 order-1">
+         <div className="md:w-1/2 md:ml-40 md:mt-20 mt-10 order-1">
             <img src={homeImage} className="rounded-full md:w-[400px] md:h-[400px] border border-green-600 " alt="" />
          </div>
        </div>
