@@ -10,6 +10,7 @@ import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
 import { ReactTyped } from "react-typed";
+import resume from "../../public/MY-CV.pdf"
 
 function Home() {
   return (
@@ -67,6 +68,9 @@ function Home() {
                             <IoLogoNodejs className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
                         </div>
                     </div>
+            </div>
+            <div className='flex justify-between py-5'>
+                <button className='bg-green-800 text-white rounded-xl px-3 py-2'><a href={resume} download="resume">Download CV</a></button>
             </div>
          </div>
          <div className="md:w-1/2 md:ml-40 md:mt-20 order-1">
